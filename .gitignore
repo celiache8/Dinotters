@@ -1,2 +1,17 @@
 workspace/.settings/org.eclipse.jdt.core.prefs
 workspace/.classpath
+workspace/bin/classes.dex
+workspace/bin/classes.dex
+workspace/bin/classes.dex
+workspace/bin/classes/com/example/squirrelnote/MainActivity.class
+workspace/bin/classes/com/example/squirrelnote/R$drawable.class
+workspace/bin/classes/com/example/squirrelnote/R$id.class
+workspace/bin/classes/com/example/squirrelnote/R$layout.class
+workspace/bin/classes/com/example/squirrelnote/R$menu.class
+workspace/bin/classes/com/example/squirrelnote/R$string.class
+workspace/bin/classes/com/example/squirrelnote/R$style.class
+workspace/bin/resources.ap_
+workspace/bin/resources.ap_
+workspace/bin/SquirrelNote.apk
+workspace/bin/SquirrelNote.apk
+workspace/gen/com/example/squirrelnote/R.java
