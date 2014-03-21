@@ -15,3 +15,11 @@ workspace/bin/resources.ap_
 workspace/bin/SquirrelNote.apk
 workspace/bin/SquirrelNote.apk
 workspace/gen/com/example/squirrelnote/R.java
+workspace/bin/AndroidManifest.xml
+workspace/bin/classes/com/example/squirrelnote/ChecklistActivity.class
+workspace/bin/classes/com/example/squirrelnote/ListActivity.class
+workspace/bin/classes/com/example/squirrelnote/MainActivity$1.class
+workspace/bin/classes/com/example/squirrelnote/MainActivity$2.class
+workspace/bin/classes/com/example/squirrelnote/NoteActivity.class
+workspace/bin/classes/com/example/squirrelnote/SQLiteHelper.class
+workspace/bin/res/crunch/drawable-hdpi/add.png
