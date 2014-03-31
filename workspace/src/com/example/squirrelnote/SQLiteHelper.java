@@ -14,11 +14,13 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 	//Notes items table and columns
 	public static final String TABLE_NOTE_ITEMS = "noteItemsTable";
 	public static final String NOTE_PARENT_ID = "noteParentID";
+	public static final String NOTE_TITLE = "noteTitle";
 	public static final String NOTE_DATA = "noteData";
 	
 	//Check list items table and columns
 	public static final String TABLE_CHECKLIST_ITEMS = "checklistItemsTable";
 	public static final String CHECKLIST_PARENT_ID = "checklistParentID";
+	public static final String CHECKLIST_TITLE = "checklistTitle";
 	public static final String CHECKLIST_ITEM_DATA = "checklistData";
 	public static final String CHECKLIST_ITEM_CHECKED = "isChecked";
 	
@@ -35,11 +37,13 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 			+ TABLE_NOTE_ITEMS + "(" 
 			+ NOTE_PARENT_ID + " integer, " 
 			+ NOTE_DATA + " text not null, "
+			+ NOTE_TITLE + " text not null, "
 			+ "foreign key (noteParentID) references notesTable(_id));"; 
 	
 	private static final String CHECKLIST_ITEMS_TABLE_CREATE = "create table "
 			+ TABLE_CHECKLIST_ITEMS + "("
 			+ CHECKLIST_PARENT_ID + " integer, "
+			+ CHECKLIST_TITLE + " text not null, "
 			+ CHECKLIST_ITEM_DATA + " text not null, "
 			+ CHECKLIST_ITEM_CHECKED + " integer not null, "
 			+ "foreign key (checklistParentID) references notesTable(_id));";

@@ -23,3 +23,5 @@ workspace/bin/classes/com/example/squirrelnote/MainActivity$2.class
 workspace/bin/classes/com/example/squirrelnote/NoteActivity.class
 workspace/bin/classes/com/example/squirrelnote/SQLiteHelper.class
 workspace/bin/res/crunch/drawable-hdpi/add.png
+workspace/lint.xml
+workspace/bin/dexedLibs/android-support-v4-a45a221562b4e3386de075b4a3bc0836.jar
