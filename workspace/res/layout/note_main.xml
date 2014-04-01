@@ -9,19 +9,28 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10" 
-        android:layout_weight="0">
-
+        android:ems="10"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:hint="@string/string_title"
+        android:background="@null"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp">
         <requestFocus />
     </EditText>
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
    		 <EditText
         	android:id="@+id/editText2"
         	android:layout_width="match_parent"
-        	android:layout_height="match_parent"
-        	android:ems="10" >
+        	android:layout_height="wrap_content"
+        	android:ems="10" 
+        	android:hint="@string/string_note"
+        	android:background="@null">
         	<requestFocus />
    		 </EditText>
   	</ScrollView>
