@@ -26,11 +26,17 @@
             android:name="com.example.squirrelnote.ChecklistActivity"
             android:label="@string/app_name" 
             android:parentActivityName="com.example.squirrelnote.MainActivity">
+            <meta-data 
+  				android:name="android.support.PARENT_ACTIVITY"
+  				android:value="com.example.squirrelnote.MainActivity"/>
         </activity>
         <activity
             android:name="com.example.squirrelnote.NoteActivity"
             android:label="@string/app_name" 
             android:parentActivityName="com.example.squirrelnote.MainActivity">
+            <meta-data 
+  				android:name="android.support.PARENT_ACTIVITY"
+  				android:value="com.example.squirrelnote.MainActivity"/>
         </activity>
     </application>
 
